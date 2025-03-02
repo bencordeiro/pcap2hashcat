@@ -15,4 +15,9 @@ This script is designed to help convert `.pcap` files to `.hc22000` files using 
 
 ```bash
 git clone https://github.com/bencordeiro/pcap2hashcat.git
-cd pcap-to-hc22000
+cd pcap2hashcat
+echo edit directories accordingly
+sleep 3
+nano convert2hc.sh
+chmod +x convert2hc.sh
+./convert2hc.sh
